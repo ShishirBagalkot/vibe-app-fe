@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "vibe-app:build:production"
+              "buildTarget": "vibe-app:build:production"
             },
             "development": {
-              "browserTarget": "vibe-app:build:development"
+              "buildTarget": "vibe-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "vibe-app:build"
+            "buildTarget": "vibe-app:build"
           }
         },
         "test": {
